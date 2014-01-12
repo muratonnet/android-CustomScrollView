@@ -1,0 +1,77 @@
+<com.muratonnet.customscrollview.widget.CustomScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/text"
+            android:text="Text 1" />
+
+        <View style="@style/text_divider" />
+
+        <TextView
+            style="@style/text"
+            android:text="Text 2" />
+
+        <View style="@style/text_divider" />
+
+        <TextView
+            style="@style/text"
+            android:text="Text 3" />
+
+        <View style="@style/text_divider" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <View style="@style/text_divider" />
+
+        <TextView
+            style="@style/text"
+            android:text="Text 4" />
+
+        <View style="@style/text_divider" />
+
+        <TextView
+            style="@style/text"
+            android:text="Text 5" />
+
+        <View style="@style/text_divider" />
+
+        <TextView
+            style="@style/text"
+            android:text="Text 6" />
+
+        <View style="@style/text_divider" />
+
+        <TextView
+            style="@style/text"
+            android:text="Text 7" />
+
+        <View style="@style/text_divider" />
+
+        <TextView
+            style="@style/text"
+            android:text="Text 8" />
+
+        <View style="@style/text_divider" />
+
+        <TextView
+            style="@style/text"
+            android:text="Text 9" />
+
+        <View style="@style/text_divider" />
+
+        <TextView
+            style="@style/text"
+            android:text="Text 10" />
+    </LinearLayout>
+
+</com.muratonnet.customscrollview.widget.CustomScrollView>
